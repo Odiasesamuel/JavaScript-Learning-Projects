@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+body {
+    background-color: #f9fafb;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    position: relative;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+    color: rgba(255, 0, 0, 0.737);
+}
+
+.success {
+    text-align: center;
+    color: rgba(0, 128, 0, 0.683);
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type=text]:not(.ans-div input) {
+    width: 30px;
+    margin-top: 30px;
+    border-color: rgba(73, 3, 73, 0.605);
+    text-align: center;
+}
+
+input[type=text]:focus {
+    outline: 0;
+}
+
+button {
+    padding: 11px 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.324);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    bottom: 25%;
+    left: 125px;
+  }
+  
+  button:hover {
+    background-color: rgba(73, 3, 73, 0.605);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.192);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  button:active {
+    transform: translateY(-1px);
+  }
+
+.ans-div input {
+    width: 50px;
+    border-color: rgba(73, 3, 73, 0.605);
+    position: absolute;
+    bottom: 10%;
+    padding: 5px 20px;
+    left: 135px;
+    text-align: center;
+}
