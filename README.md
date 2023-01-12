@@ -1,4 +1,4 @@
-# 20 JavaScript Projects
+# JavaScript Learning Porjects
 
 JavaScript based learning projects to futher understand basic and advanced JavaScript concepts
 
